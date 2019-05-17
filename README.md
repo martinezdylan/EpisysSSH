@@ -1,14 +1,14 @@
 # EpisysSSH
 A few legacy solutions that leveraged SSH streams to automate various tasks for Symitar based Credit Unions.
 
-## Requirements (ALL)
+## Requirements
 
 - SSH Access to Symitar host
 - [SYMULATE/Episys Text Mode](#SYMULATE-and-Episys-Text-Mode)
 - [Posh-SSH](https://github.com/darkoperator/Posh-SSH)
 - PowerShell 4.0+
 
-## Installation (ALL)
+## Installation
 
 Assuming you've met the requirements, you will also need to configure a `dev.ini` file that is used at the beginning of each solution.
 
@@ -62,7 +62,7 @@ Finally, to successfully use any of the solutions, you will need to parse throug
 
 ## SYMULATE and Episys Text Mode
 
-You can confirm as to whether or not you have access to this feature via the AIX shell.
+Only needed for [NewEpisysUser.ps1](solutions/NewEpisysUser.ps1), you can confirm as to whether or not you have access to this feature via the AIX shell.
 
 ```bash
 $ sym 1
